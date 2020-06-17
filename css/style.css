@@ -164,7 +164,7 @@ footer{
 
   .intro-content{
     display: block;
-    height: 90vh;
+    height: 120vh;
   }
 
   .intro-content div{
@@ -172,7 +172,7 @@ footer{
   }
 
   .services{
-    height: 100vh;
+    height: 120vh;
     clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
   }
 
@@ -187,3 +187,71 @@ footer{
     margin: 80px 3%;
   }
 }
+
+@media screen and (max-width: 425px) {
+  
+  .header-content {
+    padding-top: 30vh;
+    padding-bottom: 10vh;
+  }
+  
+  .header-content h1{
+    font-size: 180%;
+  }
+
+  .header-content h2{
+    font-size: 70%;
+  }
+
+  .header {
+
+    height: 10%;
+  }
+
+  .btn {
+    font-size: 10px;
+  }
+
+  .intro-content{
+    height: 10%;
+  }
+
+  .services {
+    height: 10%;
+  }
+
+  .service-content {
+    margin-bottom: -14vh;
+
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+
+  .header-content {
+    padding-top: 10vh;
+  }
+
+  .header-content h2{
+    font-size: 50%;
+  }
+
+  .btn {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  
+  .header-content h2{
+    font-size: 50%;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 5%;
+  }
+}
+
